@@ -1,12 +1,140 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Нёрдс</title>
-  </head>
-  <body>
+	<head>
+		<meta charset="utf-8">
+		<title>HTML Academy: Нёрдс</title>
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:500&amp;subset=cyrillic-ext" rel="stylesheet"> 
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+	</head>
+	<body>
+			<header>
+				<div class="container clearfix">
+					<div class="logo">
+						<img src="img/logo-alt.png" alt="Nerds" width="139" height="56">
+					</div>
+					<nav>
+						<ul class="navigation clearfix">
+							<li>
+								<a href="">студия</a>
+							</li>
+							<li>
+								<a href="">клиенты</a>
+							</li>
+							<li>
+								<a href="">магазин</a>
+							</li>
+							<li>
+								<a href="">контакты</a>
+							</li>
+							<li>
+								<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+								<a href="">корзина</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="slider">
+						<input type="radio" id="btn-1" name="toggle" checked>
+						<input type="radio" id="btn-2" name="toggle">
+						<input type="radio" id="btn-3" name="toggle">
+						<div class="slider-controls">
+							<label for="btn-1"></label>
+							<label for="btn-2"></label>
+							<label for="btn-3"></label>
+						</div>
+						<div class="slides">
+							<div class="slide">
+								<div class="slide-text">
+									<div class="slide-title">Долго, дорого,<br>скрупулезно</div>
+									<p>Математически выверенный дизайн<br>для вашего сайта или мобильного приложения.</p>
+									<a class="btn" href="#">Узнать больше</a>
+								</div>
+							</div>
+							<div class="slide">
+								<div class="slide-text">
+									<div class="slide-title">Любите ли вы математику,<br> как любим ее мы?</div>
+									<p>Нашим дизайнерам мы удаляем нейроны, ответственные<br>за креатив, чтобы дать им возможность все просчитать.</p>
+									<a class="btn" href="#">Узнать больше</a>
+								</div>
+							</div>
+							<div class="slide">
+								<div class="slide-text">
+									<div class="slide-title">Только наркотики,<br> только хардкор!</div>
+									<p>Все дизайнерские решения в нашей компании принимаются только под воздействием качественных галлюциногенов.</p>
+									<a class="btn" href="#">Узнать больше</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+			<main class="container">
+				<div class="block-columns">
+					<div class="column">
+						<img src="img/web-saits.png" width="240" height="124" alt="Веб-сайты">
+						<span>Веб-сайты</span>
+						<p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+						<a href="#" class="btn btn-red">заказать</a>
+					</div>
+					<div class="column">
+						<img src="img/app.png" width="240" height="124" alt="Приложения">
+						<span>Приложения</span>
+						<p>Покорите топ-10 приложений в AppStrore и Google Play</p>
+						<a href="#" class="btn btn-green">заказать</a>
+					</div>
+					<div class="column">
+						<img src="img/presentation.png" width="240" height="124" alt="Презентации">
+						<span>Презентации</span>
+						<p>Вы даже не подозреваете,  насколько вы изумительны!</p>
+						<a href="#" class="btn btn-yellow">заказать</a>
+					</div>
+				</div>
+				<div class="about-us-block clearfix">
+					<div class="about-us-text">
+						<h1>Мы — маленькая, но гордая дизайн-студия из Краснодара.</h1>
+						<p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет выше креатива. Работаем не покладая рук, как роботы.</p>
+					</div>
+					<div class="about-us-logo">
+						<img src="img/logo-alt.png" width="187" height="75" alt="Nerds">
+						<p>since 2004</p>
+					</div>
+				</div>
+				<div class="our-work-list clearfix">
+					<div class="developments">
+						<span>Выполняем заказы на разработку:</span>
+						<ul class="list-about">
+							<li>Веб-сайтов любой сложности</li>
+							<li>Мобильных приложений для iOS и Android</li>
+							<li>Слайд шоу и видео для корпортивных презентаций</li>
+						</ul>
+					</div>
+					<div class="work">
+						<span>Как мы работаем</span>
+						<ul class="list-about">
+							<li>С самоотдачей 146%</li>
+							<li>Соблюдая сроки на 100%</li>
+							<li>По предоплате 50%</li>
+						</ul>
+					</div>
+				</div>
+				<div class="project">
+					<div class="glukhanko"></div>
+					<div class="html-a"></div>
+					<div class="borodinski"></div>
+				</div>
+			</main>
+			<div class="map">
 
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
-
-  </body>
+			</div>
+			<footer>
+				<div class="container">
+					<div class="social-btn"></div>
+					<div class="social-btn"></div>
+					<div class="social-btn"></div>
+					<span>Давайте дружить, это выгодно!</span>
+					<p>Скидка 10% для друзей из социальных сетей</p>
+				</div>
+			</footer>
+	</body>
 </html>
