@@ -11,9 +11,11 @@
 	<body>
 			<header>
 				<div class="container clearfix">
-					<div class="logo">
-						<!-- <img src="img/nerds-logo.png" alt="Nerds" width="139" height="56"> -->
-					</div>
+					<a href="index.html">
+						<div class="logo">
+							<!-- <img src="img/nerds-logo.png" alt="Nerds" width="139" height="56"> -->
+						</div>
+					</a>
 					<nav>
 						<ul class="navigation clearfix">
 							<li>
@@ -23,7 +25,7 @@
 								<a href="">клиенты</a>
 							</li>
 							<li>
-								<a href="">магазин</a>
+								<a href="catalog.html"  class="active-li">магазин</a>
 							</li>
 							<li>
 								<a href="">контакты</a>
@@ -84,7 +86,8 @@
 								<input type="checkbox" name="cart" id="fifth-checkbox" value="cart-checkbox">
 							Корзина</label>
 						</div>
-						<input type="submit" class="btn form-btn" value="показать">
+						<button name="submit" value="form-value" class="btn form-btn" style="outline: none;">показать</button>
+						<!-- <input type="submit" class="btn form-btn" value="показать"> -->
 					</form>
 				</div>
 				<div class="template-block">
@@ -97,7 +100,6 @@
 							<li>по типу</li>
 							<li>по названию</li>
 						</ul>
-						
 					</div>
 					<div class="templates-catalog">
 						<div class="template">
@@ -154,6 +156,14 @@
 								<a href="#" class="btn cost-btn">9 900 руб.</a> 
 							</div>
 						</div>
+					</div>
+					<div class="pages">
+						<ul class="pages-blocks">
+							<li>1</li>
+							<li>2</li>
+							<li>3</li>
+							<li><button name="submit" value="form-value" class="btn form-btn" style="outline: none;">следующая</button></li>
+						</ul>
 					</div>
 				</div>
 			</main>
